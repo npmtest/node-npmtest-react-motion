@@ -1,7 +1,10 @@
-# test coverage for  [react-motion (v0.4.7)](https://github.com/chenglou/react-motion#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-react-motion.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-react-motion) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-react-motion.svg)](https://travis-ci.org/npmtest/node-npmtest-react-motion)
+# npmtest-react-motion
+
+#### test coverage for  [react-motion (v0.4.8)](https://github.com/chenglou/react-motion#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-react-motion.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-react-motion) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-react-motion.svg)](https://travis-ci.org/npmtest/node-npmtest-react-motion)
+
 #### A spring that solves your animation problems.
 
-[![NPM](https://nodei.co/npm/react-motion.png?downloads=true)](https://www.npmjs.com/package/react-motion)
+[![NPM](https://nodei.co/npm/react-motion.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/react-motion)
 
 | git-branch : | [alpha](https://github.com/npmtest/node-npmtest-react-motion/tree/alpha)|
 |--:|:--|
@@ -9,11 +12,17 @@
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-react-motion/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-react-motion/build/test-report.html)|
 | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-react-motion/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-react-motion/tree/gh-pages/build)|
 
-[![istanbul-coverage](https://npmtest.github.io/node-npmtest-react-motion/build/screenCapture.buildCustomOrg.browser.coverage.html.png)](https://npmtest.github.io/node-npmtest-react-motion/build/coverage.html/index.html)
+- [https://npmtest.github.io/node-npmtest-react-motion/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-react-motion/build/coverage.html/index.html)
 
-[![test-report](https://npmtest.github.io/node-npmtest-react-motion/build/screenCapture.buildCustomOrg.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmtest%252Fnode-npmtest-react-motion%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-react-motion/build/test-report.html)
+[![istanbul-coverage](https://npmtest.github.io/node-npmtest-react-motion/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fcoverage.lib.html.png)](https://npmtest.github.io/node-npmtest-react-motion/build/coverage.html/index.html)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-react-motion/build/screenCapture.buildApidoc.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmdoc%252Fnode-npmdoc-react-motion%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-react-motion/build/apidoc.html)
+- [https://npmtest.github.io/node-npmtest-react-motion/build/test-report.html](https://npmtest.github.io/node-npmtest-react-motion/build/test-report.html)
+
+[![test-report](https://npmtest.github.io/node-npmtest-react-motion/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-react-motion/build/test-report.html)
+
+- [https://npmdoc.github.io/node-npmdoc-react-motion/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-react-motion/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-react-motion/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-react-motion/build/apidoc.html)
 
 ![npmPackageListing](https://npmtest.github.io/node-npmtest-react-motion/build/screenCapture.npmPackageListing.svg)
 
@@ -155,7 +164,9 @@
         }
     ],
     "dependencies": {
+        "create-react-class": "^15.5.2",
         "performance-now": "^0.2.0",
+        "prop-types": "^15.5.8",
         "raf": "^3.1.0"
     },
     "description": "A spring that solves your animation problems.",
@@ -197,10 +208,10 @@
     },
     "directories": {},
     "dist": {
-        "shasum": "f77331ec7920bdb0d0cfc37eb6ffa10571bf42c7",
-        "tarball": "https://registry.npmjs.org/react-motion/-/react-motion-0.4.7.tgz"
+        "shasum": "23bb2dd27c2d8e00d229e45572d105efcf40a35e",
+        "tarball": "https://registry.npmjs.org/react-motion/-/react-motion-0.4.8.tgz"
     },
-    "gitHead": "b2cb3c226e2834b33c97ad5e9aaf06e0066ac421",
+    "gitHead": "b4859146a19adba5d3fbc8bc7020aa1ca2073c22",
     "homepage": "https://github.com/chenglou/react-motion#readme",
     "keywords": [
         "react",
@@ -218,12 +229,10 @@
     "main": "lib/react-motion.js",
     "maintainers": [
         {
-            "name": "chenglou",
-            "email": "chenglou92@gmail.com"
+            "name": "chenglou"
         },
         {
-            "name": "nkbt",
-            "email": "nik@butenko.me"
+            "name": "nkbt"
         }
     ],
     "name": "react-motion",
@@ -231,7 +240,6 @@
     "peerDependencies": {
         "react": ">=0.13.2 || ^0.14 || ^15.0.0"
     },
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/chenglou/react-motion.git"
@@ -248,7 +256,7 @@
         "test:dev": "karma start ./karma.conf.js --no-single-run --auto-watch",
         "test:travis": "karma start ./karma.conf.js --single-run"
     },
-    "version": "0.4.7"
+    "version": "0.4.8"
 }
 ```
 
