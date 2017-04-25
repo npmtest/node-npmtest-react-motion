@@ -1,6 +1,6 @@
 # npmtest-react-motion
 
-#### test coverage for  [react-motion (v0.4.8)](https://github.com/chenglou/react-motion#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-react-motion.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-react-motion) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-react-motion.svg)](https://travis-ci.org/npmtest/node-npmtest-react-motion)
+#### basic test coverage for  [react-motion (v0.4.8)](https://github.com/chenglou/react-motion#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-react-motion.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-react-motion) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-react-motion.svg)](https://travis-ci.org/npmtest/node-npmtest-react-motion)
 
 #### A spring that solves your animation problems.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-react-motion/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-react-motion/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-react-motion/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-react-motion/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-react-motion/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-react-motion/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-react-motion/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-react-motion/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-react-motion/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-react-motion/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-react-motion/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-react-motion/build/coverage.html/index.html)
 
@@ -256,7 +256,8 @@
         "test:dev": "karma start ./karma.conf.js --no-single-run --auto-watch",
         "test:travis": "karma start ./karma.conf.js --single-run"
     },
-    "version": "0.4.8"
+    "version": "0.4.8",
+    "bin": {}
 }
 ```
 
